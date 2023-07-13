@@ -9,9 +9,8 @@
     "start:prod": "node dist/index.js",
     "lint": "npx eslint . --ext .ts",
     "lint:fix": "npx eslint . --fix --ext .ts",
-    "format:fix": "npx prettier --write \"./**/*.{ts,js,json,md}\"",
     "format:check": "npx prettier --list-different \"./**/*.{ts,js,json,md}\"",
-    "start": "npx node dist/index.js"
+    "format:fix": "npx prettier --write \"./**/*.{ts,js,json,md}\""
   },
   "keywords": [],
   "author": "",
